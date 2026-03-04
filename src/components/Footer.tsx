@@ -104,6 +104,10 @@ const Footer = () => {
 
         <div className="mt-16 pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between text-sm text-muted-foreground gap-4 font-medium">
           <p>© {new Date().getFullYear()} International Futuristic School. All rights reserved.</p>
+          <div className="flex gap-4">
+            <a href="https://tura.tech" className="hover:text-primary transition-colors"><img src="/assets/tura-tech.png" alt="" style={{ height: "24px" }} /></a>
+            <a href="https://tura.group" className="hover:text-primary transition-colors"><img src="/assets/tura-group.png" alt="" style={{ height: "36px" }} /></a>
+          </div>
         </div>
       </div>
     </footer>
